@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
@@ -10,6 +9,7 @@ public class PlayerController : MonoBehaviour {
 
 	private Vector3 posicion;
 
+
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody>();//Referencia al componente de tipo Rigidbody de Player.
@@ -19,6 +19,12 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
 		
 	}
+
+
+
+
+
+
 
 	void FixedUpdate()
 	{
@@ -31,4 +37,21 @@ public class PlayerController : MonoBehaviour {
 
 		rb.AddForce(movimiento * speed);
 	}
+
+
+	void OnTriggerEnter(Collider other){
+		//Debug.Log ("jijijjii");
+		if (other.gameObject.CompareTag ("Recolectable")){
+
+
+			Destroy (other.gameObject);
+
+		}else{
+	}
+	
+	}
+
+
+
+
 }
