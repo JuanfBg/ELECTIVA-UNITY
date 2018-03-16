@@ -9,9 +9,16 @@ public class PlayerController : MonoBehaviour {
 	public float speed;
 	private float time;
     public float timePanelNivel1;
+<<<<<<< HEAD
 
     private bool banderaPanelNivel1;
 
+=======
+	public float timePanelNivel2;
+    private bool banderaPanelNivel1;
+	private bool BanderaPanelNivel2;
+
+>>>>>>> Juan´s_Branch
     private Rigidbody rb;
 
 	private Vector3 posicion;
@@ -75,8 +82,24 @@ public class PlayerController : MonoBehaviour {
             {
                 //Application.LoadLevel(1);
                 SceneManager.LoadScene(1);
+<<<<<<< HEAD
             }
         }
+=======
+
+
+
+            }
+
+
+
+        }
+
+
+
+
+
+>>>>>>> Juan´s_Branch
     }
 
 	void FixedUpdate()

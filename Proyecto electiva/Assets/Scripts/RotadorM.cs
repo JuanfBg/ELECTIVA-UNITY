@@ -6,6 +6,7 @@ public class RotadorM : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+<<<<<<< HEAD
 		
 	}
 	
@@ -13,4 +14,13 @@ public class RotadorM : MonoBehaviour {
 	void Update () {
         transform.Rotate(new Vector3(45, 0, 90) * Time.deltaTime);
     }
+=======
+
+	}
+
+	// Update is called once per frame
+	void Update () {
+		transform.Rotate(new Vector3(45, 0, 90) * Time.deltaTime);
+	}
+>>>>>>> Juan´s_Branch
 }
