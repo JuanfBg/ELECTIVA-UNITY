@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Recolectable
+  - PlaneTrampa
+  - CapsulaBuena
+  - CapsulaMala
+  - PlaneTrampa2
   layers:
   - Default
   - TransparentFX

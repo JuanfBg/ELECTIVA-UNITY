@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 64362109135481772}
   - component: {fileID: 23385342370851000}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: Rampa1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
